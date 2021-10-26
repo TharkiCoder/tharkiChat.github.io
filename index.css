@@ -25,7 +25,7 @@ body{
   font-family: Varela Round;
   color: #fff;
   background-color: #7575ff;
-  padding:6px 0px;
+  padding:8px 0px;
 }
 
 #join_container{
@@ -186,10 +186,10 @@ body{
   display: inline-block;
 }
 .message_user{
-  padding-left:5px;
-  padding-right: 5px;
+  padding-left:10px;
+  padding-right: 10px;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 20px;
 }
 /*Written mesage Container*/
 .message_content_container{
@@ -203,8 +203,8 @@ body{
   font-weight: normal;
   color:#222;
   padding-left:5px;
-  padding-right: 5px;
-  font-size: 14px;
+  padding-right: 10px;
+  font-size: 20px;
   margin-top: 0px;
 }
 
@@ -221,7 +221,7 @@ body{
 }
 #title.chat_title{
   transition: 0.8s;
-  font-size: 47px;
+  font-size: 50px;
 }
 .loader_container{
   width: 100%;
@@ -263,7 +263,7 @@ body{
 }
 
 div::-webkit-scrollbar {
-  width: 8px;               /* width of the entire scrollbar */
+  width: 10px;               /* width of the entire scrollbar */
 }
 
 div::-webkit-scrollbar-track {
@@ -272,6 +272,6 @@ div::-webkit-scrollbar-track {
 
 div::-webkit-scrollbar-thumb {
   background-color: #7575ff;    /* color of the scroll thumb */
-  border-radius: 20px;       /* roundness of the scroll thumb */
+  border-radius: 25px;       /* roundness of the scroll thumb */
   border: 2px solid #ccc;  /* creates padding around scroll thumb */
 }
